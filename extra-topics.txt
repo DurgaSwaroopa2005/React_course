@@ -1,0 +1,3 @@
+script can be written- 1.above </body>
+                       2.in head with defer(<script src="script.js" defer></script>)
+                       
