@@ -4,5 +4,6 @@ const heading = React.createElement("h1",
 );
 
 console.log(heading); //heading(React.createElement) here is a object
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(heading);
