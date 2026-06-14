@@ -1,9 +1,12 @@
-const heading = React.createElement("h1",
-    {id: "heading"},
-    "hello this is react!"
-);
+const heading = React.createElement(
+    "div",
+    {},
+    React.createElement("h1",{},"nested one"));
 
 console.log(heading); //heading(React.createElement) here is a object
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(heading);
+
+
+
