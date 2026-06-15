@@ -1,0 +1,31 @@
+{
+  "name": "react_course",
+  "version": "1.0.0",
+  "description": "This is react learning course",
+  "keywords": [],
+  "homepage": "https://github.com/DurgaSwaroopa2005/React_course#readme",
+  "bugs": {
+    "url": "https://github.com/DurgaSwaroopa2005/React_course/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DurgaSwaroopa2005/React_course.git"
+  },
+  "license": "ISC",
+  "author": "Akkireddy Durga Swaroopa",
+  "type": "commonjs",
+
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  },
+  "browserslist":[
+    "last 2 versions"
+  ]
+}
